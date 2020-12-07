@@ -11,6 +11,7 @@ apt_pkg=(
   tmux
   ibus-mozc
   terminator
+  python3-vcstool
 )
 echo "following packages are installed"
 
