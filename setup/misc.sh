@@ -4,6 +4,8 @@
 apt_pkg=(
   build-essential
   clang
+  build-essential
+  clang-format
   cmake
   doxygen
   git
