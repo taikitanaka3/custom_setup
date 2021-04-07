@@ -10,6 +10,7 @@ sudo apt install -y python3-vcstool
 git clone git@github.com:tier4/AutowareArchitectureProposal.git
 cd AutowareArchitectureProposal
 git checkout ros2
+python3 scripts/repos2workspace.py autoware.proj.repos 
 mkdir -p src
 vcs import src < autoware.proj.repos
 ./setup_ubuntu20.04.sh

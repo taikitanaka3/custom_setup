@@ -4,7 +4,6 @@
 apt_pkg=(
   build-essential
   clang
-  build-essential
   clang-format
   cmake
   doxygen
@@ -14,6 +13,9 @@ apt_pkg=(
   ibus-mozc
   terminator
   python3-vcstool
+  net-tools
+  can-utils
+  ffmpeg
 )
 echo "following packages are installed"
 
